@@ -23,7 +23,7 @@ return count;
 
 int countPairs3(int *arr, int len, int value) {
 int count = 0;
-for (i = 0; i < len; i++) {
+for (int i = 0; i < len; i++) {
 int min = i + 1;
 int max = len - 1;
 while (min < max) {
